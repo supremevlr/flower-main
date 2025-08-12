@@ -1,0 +1,19 @@
+{
+  "name": "flower-main",
+  "version": "1.0.0",
+  "description": "Uma animação de flores em HTML/CSS com efeitos visuais suaves",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server . --port=3000",
+    "build": "echo \"Build completed - static files ready for deployment\"",
+    "deploy": "echo \"Ready for deployment to GitHub Pages, Netlify, or Vercel\""
+  },
+  "keywords": ["flowers", "animation", "css", "html", "visual-effects"],
+  "author": "supremevlr",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  }
+}
